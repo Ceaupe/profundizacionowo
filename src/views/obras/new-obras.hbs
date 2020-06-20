@@ -1,0 +1,47 @@
+<!-- <div class="col-md-4 mx-auto p-5">
+    <div class="card text-center">
+        <div class="card-header">
+            <h3 new obra > </h3>
+        </div>
+        <div class="card-body">
+            <form action="/obras/new-obra" method="POST">
+                <div class="form-group">
+                    <input type="=text" name="title" class="form-control" placeholder="Title" autofocus>
+                </div>
+                <div class="form-group">
+                    <textarea name="short_description" placeholder="Description" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-block">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div> !!-->
+<div class="container">
+    <div class="col-sm-5">
+        <form action="/obras/new-obra" method="POST">
+            <div class="form-group">
+                <label for="usr">Titulo:</label>
+                <input type="text" name="title"class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="usr">Autor:</label>
+                <input type="text" name="autor" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="usr">Descripcion:</label>
+                <input type="text" name="short_description" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="usr">Valor:</label>
+                <input type="text" name="value" class="form-control">
+            </div>
+            <button class="btn btn-primary">Agregar</button>
+        </form>
+    </div>
+    <div class="col-sm-7">
+        <img class="img-responsive" src="/img/oso.png" width="100%">
+    </div>
+</div>
